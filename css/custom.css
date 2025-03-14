@@ -1,0 +1,127 @@
+.project-block {
+    height: 100%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.project-block img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#infobox-info_general_container {
+    display: flex;
+    align-items: center;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.social-links a:hover {
+    opacity: 0.8;
+}
+
+.photo-column img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+#infobox-container {
+    background-color: #f3f3f3 !important;
+}
+
+.footertext {
+    color: #ffffff !important;
+}
+
+/* Certifications styling */
+.certification-block {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.certification-block img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.certification-block h4 {
+    margin-top: 10px;
+}
+
+#certifications{
+    background-color: #f3f3f3;
+}
+
+/* Styles for download section */
+.download-section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.download-item {
+    margin-bottom: 15px;
+}
+
+.description {
+    margin-bottom: 30px;
+}
+
+/* Styles for carousel */
+#carousel-container {
+    padding: 20px 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Style for navigation buttons */
+.swiper-button-next,
+.swiper-button-prev {
+    color: #000;
+}
+
+/* Style for pagination */
+.swiper-pagination-bullet {
+    background: #000;
+}
+
+
+/* Responsive stile for the items */
+@media (max-width: 640px) {
+    .swiper-slide {
+        width: 100%;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1023px) {
+    .swiper-slide {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .swiper-slide {
+        width: 33.33%;
+    }
+}
